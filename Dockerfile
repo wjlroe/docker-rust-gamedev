@@ -14,6 +14,7 @@ RUN apt-get update && \
 	libsdl2-net-dev \
 	libsdl2-ttf-dev \
 	libfreetype6-dev \
+	tk-dev \
 	-qqy \
 	--no-install-recommends \
 	&& rm -rf /var/lib/apt/lists/* \
