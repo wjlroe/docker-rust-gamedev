@@ -1,4 +1,4 @@
-FROM scorpil/rust:1.12
+FROM scorpil/rust:1.14
 MAINTAINER William Roe "git@wjlr.org.uk"
 
 ENV DEBIAN_FRONTEND=noninteractive
