@@ -1,4 +1,4 @@
-FROM scorpil/rust:1.14
+FROM wjlroe/docker-ubuntu-rust:1.15
 MAINTAINER William Roe "git@wjlr.org.uk"
 
 ENV DEBIAN_FRONTEND=noninteractive
