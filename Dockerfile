@@ -1,4 +1,4 @@
-FROM wjlroe/docker-ubuntu-rust:1.15.1
+FROM wjlroe/docker-ubuntu-rust:1.18.0
 MAINTAINER William Roe "git@wjlr.org.uk"
 
 ENV DEBIAN_FRONTEND=noninteractive
@@ -18,5 +18,4 @@ RUN apt-get update && \
 	tk-dev \
 	-qqy \
 	--no-install-recommends \
-	&& rm -rf /var/lib/apt/lists/* \
-	/var/cache/apt/archives
+	&& rm -rf /var/lib/apt/lists/* /var/cache/apt/archives
