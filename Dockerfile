@@ -1,4 +1,4 @@
-FROM wjlroe/docker-ubuntu-rust:1.19.0
+FROM wjlroe/docker-ubuntu-rust:1.20.0
 MAINTAINER William Roe "git@wjlr.org.uk"
 
 ENV DEBIAN_FRONTEND=noninteractive
