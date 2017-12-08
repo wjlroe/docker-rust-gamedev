@@ -1,11 +1,10 @@
-FROM wjlroe/docker-ubuntu-rust:1.20.0
+FROM wjlroe/docker-ubuntu-rust:1.22.1
 MAINTAINER William Roe "git@wjlr.org.uk"
 
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && \
 	apt-get install \
-	build-essential \
 	uuid-dev \
 	libssl-dev \
 	libsdl2-dev \
