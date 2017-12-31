@@ -20,3 +20,4 @@ RUN apt-get update && \
 	&& rm -rf /var/lib/apt/lists/* /var/cache/apt/archives
 
 RUN rustc --version
+RUN rustup run nightly rustc --version
