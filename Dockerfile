@@ -19,7 +19,7 @@ RUN apt-get update && \
 	--no-install-recommends \
 	&& rm -rf /var/lib/apt/lists/* /var/cache/apt/archives
 
-ENV LAST_RUST_IMAGE_UPDATE=2018-05-06
+ENV LAST_RUST_IMAGE_UPDATE=2018-07-22
 
 RUN rustc --version
 RUN rustup run nightly rustc --version
